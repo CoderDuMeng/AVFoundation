@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56BCD2F1D265027000A0D71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56BCD2E1D265027000A0D71 /* CoreGraphics.framework */; };
+		C57865541D29FB7300353B01 /* MMPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C57865511D29FB7300353B01 /* MMPlayView.m */; };
+		C57865591D29FB7900353B01 /* playViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57865581D29FB7900353B01 /* playViewController.m */; };
+		C578655F1D29FB8100353B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C578655C1D29FB8100353B01 /* AppDelegate.m */; };
+		C57865601D29FB8100353B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C578655E1D29FB8100353B01 /* ViewController.m */; };
+		C57865621D29FC2600353B01 /* mm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C57865611D29FC2600353B01 /* mm.bundle */; };
+		C58737D81D2A2CEA00B20FC1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58737D71D2A2CEA00B20FC1 /* CoreMedia.framework */; };
+		C58737DA1D2A2CF300B20FC1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58737D91D2A2CF300B20FC1 /* CoreAudio.framework */; };
+		C58737DC1D2A2D1900B20FC1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58737DB1D2A2D1900B20FC1 /* AudioToolbox.framework */; };
+		C58737DE1D2A2D2200B20FC1 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58737DD1D2A2D2200B20FC1 /* MediaToolbox.framework */; };
 		C5AD18F31D22383900EDDF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD18F21D22383900EDDF4E /* main.m */; };
-		C5AD18F61D22383900EDDF4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD18F51D22383900EDDF4E /* AppDelegate.m */; };
-		C5AD18F91D22383900EDDF4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD18F81D22383900EDDF4E /* ViewController.m */; };
 		C5AD18FC1D22383900EDDF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AD18FA1D22383900EDDF4E /* Main.storyboard */; };
 		C5AD18FE1D22383900EDDF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AD18FD1D22383900EDDF4E /* Assets.xcassets */; };
 		C5AD19011D22383900EDDF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AD18FF1D22383900EDDF4E /* LaunchScreen.storyboard */; };
+		C5CDB3741D22805A002B2168 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CDB3731D22805A002B2168 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C56BCD2E1D265027000A0D71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C57865501D29FB7300353B01 /* MMPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPlayView.h; sourceTree = "<group>"; };
+		C57865511D29FB7300353B01 /* MMPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPlayView.m; sourceTree = "<group>"; };
+		C57865571D29FB7900353B01 /* playViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playViewController.h; sourceTree = "<group>"; };
+		C57865581D29FB7900353B01 /* playViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playViewController.m; sourceTree = "<group>"; };
+		C578655B1D29FB8100353B01 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C578655C1D29FB8100353B01 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C578655D1D29FB8100353B01 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C578655E1D29FB8100353B01 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C57865611D29FC2600353B01 /* mm.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mm.bundle; sourceTree = "<group>"; };
+		C58737D71D2A2CEA00B20FC1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C58737D91D2A2CF300B20FC1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C58737DB1D2A2D1900B20FC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C58737DD1D2A2D2200B20FC1 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		C5AD18EE1D22383900EDDF4E /* AVExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AD18F21D22383900EDDF4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C5AD18F41D22383900EDDF4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C5AD18F51D22383900EDDF4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5AD18F71D22383900EDDF4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C5AD18F81D22383900EDDF4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5AD18FB1D22383900EDDF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5AD18FD1D22383900EDDF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5AD19001D22383900EDDF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5AD19021D22383900EDDF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CDB3731D22805A002B2168 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +53,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58737DE1D2A2D2200B20FC1 /* MediaToolbox.framework in Frameworks */,
+				C58737DC1D2A2D1900B20FC1 /* AudioToolbox.framework in Frameworks */,
+				C58737DA1D2A2CF300B20FC1 /* CoreAudio.framework in Frameworks */,
+				C58737D81D2A2CEA00B20FC1 /* CoreMedia.framework in Frameworks */,
+				C56BCD2F1D265027000A0D71 /* CoreGraphics.framework in Frameworks */,
+				C5CDB3741D22805A002B2168 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C578654F1D29FB7300353B01 /* MMAV */ = {
+			isa = PBXGroup;
+			children = (
+				C57865611D29FC2600353B01 /* mm.bundle */,
+				C57865501D29FB7300353B01 /* MMPlayView.h */,
+				C57865511D29FB7300353B01 /* MMPlayView.m */,
+			);
+			path = MMAV;
+			sourceTree = "<group>";
+		};
+		C57865561D29FB7900353B01 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				C57865571D29FB7900353B01 /* playViewController.h */,
+				C57865581D29FB7900353B01 /* playViewController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		C578655A1D29FB8100353B01 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C578655B1D29FB8100353B01 /* AppDelegate.h */,
+				C578655C1D29FB8100353B01 /* AppDelegate.m */,
+				C578655D1D29FB8100353B01 /* ViewController.h */,
+				C578655E1D29FB8100353B01 /* ViewController.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		C5AD18E51D22383900EDDF4E = {
 			isa = PBXGroup;
 			children = (
+				C58737DD1D2A2D2200B20FC1 /* MediaToolbox.framework */,
+				C58737DB1D2A2D1900B20FC1 /* AudioToolbox.framework */,
+				C58737D91D2A2CF300B20FC1 /* CoreAudio.framework */,
+				C58737D71D2A2CEA00B20FC1 /* CoreMedia.framework */,
+				C56BCD2E1D265027000A0D71 /* CoreGraphics.framework */,
+				C5CDB3731D22805A002B2168 /* AVFoundation.framework */,
 				C5AD18F01D22383900EDDF4E /* AVExample */,
 				C5AD18EF1D22383900EDDF4E /* Products */,
 			);
@@ -58,14 +120,9 @@
 		C5AD18F01D22383900EDDF4E /* AVExample */ = {
 			isa = PBXGroup;
 			children = (
-				C5AD18F41D22383900EDDF4E /* AppDelegate.h */,
-				C5AD18F51D22383900EDDF4E /* AppDelegate.m */,
-				C5AD18F71D22383900EDDF4E /* ViewController.h */,
-				C5AD18F81D22383900EDDF4E /* ViewController.m */,
-				C5AD18FA1D22383900EDDF4E /* Main.storyboard */,
-				C5AD18FD1D22383900EDDF4E /* Assets.xcassets */,
-				C5AD18FF1D22383900EDDF4E /* LaunchScreen.storyboard */,
-				C5AD19021D22383900EDDF4E /* Info.plist */,
+				C578655A1D29FB8100353B01 /* App */,
+				C57865561D29FB7900353B01 /* demo */,
+				C578654F1D29FB7300353B01 /* MMAV */,
 				C5AD18F11D22383900EDDF4E /* Supporting Files */,
 			);
 			path = AVExample;
@@ -74,6 +131,10 @@
 		C5AD18F11D22383900EDDF4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5AD18FA1D22383900EDDF4E /* Main.storyboard */,
+				C5AD18FD1D22383900EDDF4E /* Assets.xcassets */,
+				C5AD18FF1D22383900EDDF4E /* LaunchScreen.storyboard */,
+				C5AD19021D22383900EDDF4E /* Info.plist */,
 				C5AD18F21D22383900EDDF4E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,7 +171,7 @@
 				TargetAttributes = {
 					C5AD18ED1D22383900EDDF4E = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 95F798CZYF;
+						DevelopmentTeam = YS5EJK97LA;
 					};
 				};
 			};
@@ -137,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57865621D29FC2600353B01 /* mm.bundle in Resources */,
 				C5AD19011D22383900EDDF4E /* LaunchScreen.storyboard in Resources */,
 				C5AD18FE1D22383900EDDF4E /* Assets.xcassets in Resources */,
 				C5AD18FC1D22383900EDDF4E /* Main.storyboard in Resources */,
@@ -150,9 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AD18F91D22383900EDDF4E /* ViewController.m in Sources */,
-				C5AD18F61D22383900EDDF4E /* AppDelegate.m in Sources */,
+				C578655F1D29FB8100353B01 /* AppDelegate.m in Sources */,
+				C57865601D29FB8100353B01 /* ViewController.m in Sources */,
 				C5AD18F31D22383900EDDF4E /* main.m in Sources */,
+				C57865591D29FB7900353B01 /* playViewController.m in Sources */,
+				C57865541D29FB7300353B01 /* MMPlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AVExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ios-dumeng-Du.AVExample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detu.ZZNNewEnterPrise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -277,10 +344,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AVExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ios-dumeng-Du.AVExample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detu.ZZNNewEnterPrise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -303,6 +373,7 @@
 				C5AD19071D22383900EDDF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
